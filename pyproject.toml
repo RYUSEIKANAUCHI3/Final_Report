@@ -7,7 +7,11 @@ authors = [
     { name = "R. Kanauchi", email = "s258605s@st.go.tuat.ac.jp" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "lightning>=2.6.0",
+    "torchvision>=0.24.1",
+    "torch>=2.9.1"
+]
 
 [project.scripts]
 final-report = "final_report:main"
